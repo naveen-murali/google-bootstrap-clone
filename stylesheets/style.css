@@ -13,6 +13,9 @@
     margin-top: 4rem;
     font-weight: bold !important;
 }
+.row{
+    --bs-gutter-x: 0rem;
+}
 .font-gsan{
     font-family: Arial, sans-serif;
 }
