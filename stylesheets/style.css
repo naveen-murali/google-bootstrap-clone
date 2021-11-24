@@ -5,15 +5,21 @@
 
 @font-face {
     font-family: "Google Sans Display";
-    src: url("/font/google-sans-display.woff2");
+    src: url("/font/google-sans-display.woff2") format('woff2');
+    font-weight:normal;
+    font-style:normal;
 }
 @font-face {
     font-family: "Google Sans";
-    src: url("/font/google-sans.woff2");
+    src: url("/font/google-sans.woff2") format('woff2');
+    font-weight:normal;
+    font-style:normal;
 }
 @font-face {
     font-family: "Roboto";
-    src: url("/font/roboto.woff2");
+    src: url("/font/roboto.woff2") format('woff2');
+    font-weight:normal;
+    font-style:normal;
 }
 .body{
     width: 100vw;
@@ -135,7 +141,7 @@
 /* wecome */
 .text-green{
     color: #188038;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* product type */
