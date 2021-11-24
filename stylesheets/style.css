@@ -1,25 +1,6 @@
 
 *{
-    font-family: "Google Sans","Roboto", sans-serif !important;
-}
-
-@font-face {
-    font-family: "Google Sans Display";
-    src: url("/font/google-sans-display.woff2") format('woff2');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face {
-    font-family: "Google Sans";
-    src: url("/font/google-sans.woff2") format('woff2');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("/font/roboto.woff2") format('woff2');
-    font-weight:normal;
-    font-style:normal;
+    font-family: sans-serif !important;
 }
 .body{
     width: 100vw;
@@ -27,12 +8,12 @@
     overflow-x: hidden !important;
 }
 .font-gsna-display{
-    font-family: "Google Sans Display", "Google Sans", "Roboto", sans-serif !important;
+    font-family: Arial, sans-serif !important;
     letter-spacing: -2px !important;
     margin-top: 4rem;
 }
 .font-gsan{
-    font-family: "Google Sans","Roboto", sans-serif;
+    font-family: Arial, sans-serif;
 }
 .text-gray{
     color: #423f3f;
@@ -141,7 +122,6 @@
 /* wecome */
 .text-green{
     color: #188038;
-    font-weight: 600;
 }
 
 /* product type */
